@@ -38,7 +38,7 @@ class BasketActivity : AppCompatActivity() {
         super.onActivityResult(requestCode, resultCode, data)
         if(requestCode == REQUEST_CODE && resultCode == Activity.RESULT_OK){
             //send order
-            Toast.makeText(this, "Panier envoyé", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, "Commande terminée", Toast.LENGTH_LONG).show()
             makeRequest()
         }
     }

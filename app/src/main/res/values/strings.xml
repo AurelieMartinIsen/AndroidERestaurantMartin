@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AndroidERestaurant</string>
+    <string name="app_name">MartinRestaurant</string>
     <string name="home_starter">Entrées</string>
     <string name="home_dish">Plats</string>
     <string name="home_dessert">Desserts</string>
@@ -13,8 +13,8 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
-    <string name="total">Total</string>
-    <string name="itemAdded">Votre plats a été ajouté au panier</string>
+    <string name="total">Ajouter au panier</string>
+    <string name="itemAdded">Votre plat a été ajouté à la commande</string>
     <string name="basket">Panier</string>
     <string name="quantity">Quantité : </string>
     <string name="lastName">Nom</string>
