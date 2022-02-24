@@ -1,6 +1,5 @@
 package fr.isen.martin.androiderestaurant
 
-
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -25,11 +24,11 @@ class DishPictureFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         arguments?.getString("picture_url")?.let { pictureUrl ->
             if (pictureUrl == "") {
-                binding.dishPictureFrag.setImageResource(R.drawable.noimages)
+                binding.dishPictureFrag.setImageResource(R.drawable.logo)
             } else {
                 Picasso.get()
                     .load(pictureUrl)
-                    .placeholder(R.drawable.noimages)
+                    .placeholder(R.drawable.logo)
                     .into(binding.dishPictureFrag)
             }
         }

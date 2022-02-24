@@ -3,11 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Android/AndroidERestaurant/app/src/main/res/drawable/rounded_background.xml" value="0.2315" />
         <entry key="..\:/Users/Android/AndroidERestaurant/app/src/main/res/layout/activity_basket.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Android/AndroidERestaurant/app/src/main/res/layout/activity_categories.xml" value="0.23731884057971014" />
+        <entry key="..\:/Users/Android/AndroidERestaurant/app/src/main/res/layout/activity_detail.xml" value="0.23731884057971014" />
         <entry key="..\:/Users/Android/AndroidERestaurant/app/src/main/res/layout/activity_home.xml" value="0.23731884057971014" />
+        <entry key="..\:/Users/Android/AndroidERestaurant/app/src/main/res/layout/activity_order.xml" value="0.23731884057971014" />
+        <entry key="..\:/Users/Android/AndroidERestaurant/app/src/main/res/layout/activity_user.xml" value="0.23731884057971014" />
         <entry key="..\:/Users/Android/AndroidERestaurant/app/src/main/res/layout/card_view_basket.xml" value="0.23731884057971014" />
         <entry key="..\:/Users/Android/AndroidERestaurant/app/src/main/res/layout/card_view_design.xml" value="0.23731884057971014" />
         <entry key="..\:/Users/Android/AndroidERestaurant/app/src/main/res/layout/fragment_dish_picture.xml" value="0.23731884057971014" />
+        <entry key="..\:/Users/Android/AndroidERestaurant/app/src/main/res/layout/fragment_login.xml" value="0.23731884057971014" />
+        <entry key="..\:/Users/Android/AndroidERestaurant/app/src/main/res/layout/fragment_register.xml" value="0.23731884057971014" />
+        <entry key="..\:/Users/Android/AndroidERestaurant/app/src/main/res/layout/menu_basket.xml" value="0.23731884057971014" />
         <entry key="..\:/Users/Android/AndroidERestaurant/app/src/main/res/menu/menu.xml" value="0.25416666666666665" />
       </map>
     </option>

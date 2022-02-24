@@ -1,6 +1,5 @@
 package fr.isen.martin.androiderestaurant
 
-
 import com.google.gson.annotations.SerializedName
 import java.io.Serializable
 

@@ -1,6 +1,5 @@
 package fr.isen.martin.androiderestaurant
 
-
 import android.app.Activity
 import android.content.Context
 import android.content.Intent

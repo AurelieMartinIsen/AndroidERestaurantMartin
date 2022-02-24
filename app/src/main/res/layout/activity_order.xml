@@ -6,18 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".OrderActivity">
 
-    <ImageView
-        android:id="@+id/backgroundFinOrder"
-        android:layout_width="426dp"
-        android:layout_height="770dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/delivery"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/backgroudfinorder" />
-
     <TextView
         android:id="@+id/finishOrder"
         android:layout_width="0dp"
@@ -26,9 +14,9 @@
         android:layout_marginTop="50dp"
         android:layout_marginEnd="24dp"
         android:fontFamily="sans-serif-black"
-        android:text=" Nous avons bien comptabilisé votre commande. Votre commande arrivera bientôt chez vous.  Nous vous remercions d'avoir choisi RESTO'ISEN. À bientôt !  "
+        android:text="Merci pour votre commande, celle-ci sera préparée et livrée avec soin. Bon appétit et à bientôt."
         android:textAlignment="center"
-        android:textColor="@android:color/holo_red_dark"
+        android:textColor="@color/purple_700"
         android:textSize="24sp"
         android:textStyle="bold"
         android:typeface="normal"
@@ -41,21 +29,12 @@
         android:layout_width="408dp"
         android:layout_height="352dp"
         android:layout_marginStart="1dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="2dp"
-        android:src="@drawable/giforder"
+        android:src="@drawable/livreur"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/finishOrder" />
-
-    <ImageView
-        android:id="@+id/backHomeLogo"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_marginBottom="24dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/backgroundFinOrder"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/backhome" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

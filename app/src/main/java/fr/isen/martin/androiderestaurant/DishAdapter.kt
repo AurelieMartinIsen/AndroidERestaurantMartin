@@ -1,6 +1,5 @@
 package fr.isen.martin.androiderestaurant
 
-
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -36,8 +35,8 @@ class DishAdapter(private val mList: List<DishModel>, val onDishClicked: (DishMo
 
         Picasso.get()
             .load(mList[position].getFirstPicture())
-            .error(R.drawable.noimages)
-            .placeholder(R.drawable.noimages)
+            .error(R.drawable.logo)
+            .placeholder(R.drawable.logo)
             .into(holder.dishPicture)
         
         holder.dishPrice.text = dishModel.getFormattedPrice()

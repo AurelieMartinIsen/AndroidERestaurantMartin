@@ -1,6 +1,5 @@
 package fr.isen.martin.androiderestaurant
 
-
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -38,8 +37,8 @@ class BasketAdapter(private val items: List<BasketItem>, val deleteCLickList: (B
 
         Picasso.get()
             .load(basketItem.dish.getFirstPicture())
-            .error(R.drawable.noimages)
-            .placeholder(R.drawable.noimages)
+            .error(R.drawable.logo)
+            .placeholder(R.drawable.logo)
             .into(holder.imDishBasket)
     }
 

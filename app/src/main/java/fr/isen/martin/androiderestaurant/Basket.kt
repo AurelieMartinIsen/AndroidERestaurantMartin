@@ -1,6 +1,5 @@
 package fr.isen.martin.androiderestaurant
 
-
 import android.content.Context
 import com.google.gson.GsonBuilder
 import java.io.File

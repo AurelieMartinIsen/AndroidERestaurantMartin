@@ -1,6 +1,5 @@
 package fr.isen.martin.androiderestaurant
 
-
 import android.content.Intent
 import android.os.Bundle
 import fr.isen.martin.androiderestaurant.databinding.ActivityHomeBinding
@@ -28,7 +27,7 @@ class HomeActivity : BaseActivity() {
         }
 
 
-        binding.desserts.setOnClickListener {
+        binding.dessert.setOnClickListener {
             changeActivity(getString(R.string.home_dessert))
         }
 
