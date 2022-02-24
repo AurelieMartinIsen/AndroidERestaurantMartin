@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".HomeActivity">
+
+    <Button
+        android:id="@+id/desserts"
+        android:layout_width="313dp"
+        android:layout_height="105dp"
+        android:text="Desserts"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/plat"
+        android:layout_width="313dp"
+        android:layout_height="105dp"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/desserts"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/entree"
+        android:layout_width="313dp"
+        android:layout_height="105dp"
+        android:background="#B71C1C"
+        android:backgroundTint="@color/black"
+        android:text="Entrée"
+        app:layout_constraintBottom_toTopOf="@+id/plat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
